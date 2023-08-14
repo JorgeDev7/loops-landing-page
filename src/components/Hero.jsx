@@ -7,7 +7,7 @@ const Hero = ({ setActive }) => {
     return (
         <>
 
-            <div className={`bg-[url('./assets/images/mobile/image-hero.jpg')] md:bg-[url('./assets/images/desktop/image-hero.jpg')] bg-cover md:bg-center h-[650px] md:h-[900px]`}>
+            <div className={`bg-[url('/assets/images/mobile/image-hero.jpg')] md:bg-[url('/assets/images/desktop/image-hero.jpg')] bg-cover md:bg-center h-[650px] md:h-[900px]`}>
                 <div className="container px-5 mx-auto">
                     <div className='flex justify-between items-center pt-10 md:pt-20'>
                         <img
